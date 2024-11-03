@@ -1,0 +1,318 @@
+{
+  "b2a6c605ec1b3f24844b175b35be4172" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "67e432d616c08e66",
+      "status" : "failed",
+      "statusDetails" : "Message not equal\nExpected: \"email or password are incorrect/неверные email или пароль\"\n     but: was \"email or password are incorrect\"",
+      "time" : {
+        "start" : 1730646752828,
+        "stop" : 1730646754807,
+        "duration" : 1979
+      }
+    } ]
+  },
+  "5cb808c50bdbf42300d048e61ef3793" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7191b0aab7dcffb",
+      "status" : "failed",
+      "statusDetails" : "Message not equal\nExpected: \"You should be authorised/Авторизуйтесь\"\n     but: was \"You should be authorised\"",
+      "time" : {
+        "start" : 1730646735172,
+        "stop" : 1730646737848,
+        "duration" : 2676
+      }
+    } ]
+  },
+  "bb977128c7e34ed435ecf03ff06209ea" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9a52f726d0460115",
+      "status" : "broken",
+      "statusDetails" : "accessToken cannot be null",
+      "time" : {
+        "start" : 1730646742846,
+        "stop" : 1730646743334,
+        "duration" : 488
+      }
+    } ]
+  },
+  "7bbad0dd372a35637337e88852299e8b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e3c7fe6cfade6a77",
+      "status" : "failed",
+      "statusDetails" : "Message not equal\nExpected: \"email or password are incorrect/неверные email или пароль\"\n     but: was \"email or password are incorrect\"",
+      "time" : {
+        "start" : 1730646747357,
+        "stop" : 1730646749902,
+        "duration" : 2545
+      }
+    } ]
+  },
+  "236b0c14c28cca4f3686ac4a2ce706d8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8b5b1d9c95e2d5e9",
+      "status" : "broken",
+      "statusDetails" : "accessToken cannot be null",
+      "time" : {
+        "start" : 1730646746100,
+        "stop" : 1730646747352,
+        "duration" : 1252
+      }
+    } ]
+  },
+  "3ae1cb408522e5b8bfd7f7ae1708ad6f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5bada92ed39085e6",
+      "status" : "broken",
+      "statusDetails" : "accessToken cannot be null",
+      "time" : {
+        "start" : 1730646745349,
+        "stop" : 1730646745701,
+        "duration" : 352
+      }
+    } ]
+  },
+  "e2678201aab78e54f577fa74dcf34bd3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d509fb9020cf8ebb",
+      "status" : "broken",
+      "statusDetails" : "Index 777 out of bounds for length 15",
+      "time" : {
+        "start" : 1730646732724,
+        "stop" : 1730646733621,
+        "duration" : 897
+      }
+    } ]
+  },
+  "4cb97571557ee881aeb3f765d3fbc57d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a1b85ea25e0cbc57",
+      "status" : "failed",
+      "statusDetails" : "Message not equal\nExpected: \"email or password are incorrect/неверные email или пароль\"\n     but: was \"email or password are incorrect\"",
+      "time" : {
+        "start" : 1730646756592,
+        "stop" : 1730646758557,
+        "duration" : 1965
+      }
+    } ]
+  },
+  "4a4fcb870cb1639bc2e7f68c2d0bd5bf" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d3b8ed863babae5b",
+      "status" : "failed",
+      "statusDetails" : "Message not equal\nExpected: \"Ingredient id's must be provided/Необходимо указать ингредиенты\"\n     but: was \"Ingredient ids must be provided\"",
+      "time" : {
+        "start" : 1730646732309,
+        "stop" : 1730646732719,
+        "duration" : 410
+      }
+    } ]
+  },
+  "bc583893378520f6c6484b9d2329f8b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b9a141e128c45380",
+      "status" : "failed",
+      "statusDetails" : "Message not equal\nExpected: \"email or password are incorrect/неверные email или пароль\"\n     but: was \"email or password are incorrect\"",
+      "time" : {
+        "start" : 1730646749908,
+        "stop" : 1730646752795,
+        "duration" : 2887
+      }
+    } ]
+  },
+  "2afc9a43bbdf7bceb279196a7479613a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2b34bda443d5d81c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1730646754841,
+        "stop" : 1730646756559,
+        "duration" : 1718
+      }
+    } ]
+  },
+  "147c5c903aab3c1dc876a9b8652b9aeb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5ff0562eee4ffb82",
+      "status" : "broken",
+      "statusDetails" : "accessToken cannot be null",
+      "time" : {
+        "start" : 1730646743341,
+        "stop" : 1730646745343,
+        "duration" : 2002
+      }
+    } ]
+  },
+  "8ef27b99fce6d6f46b5710c756c58da5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a458e55b25b816bf",
+      "status" : "broken",
+      "statusDetails" : "accessToken cannot be null",
+      "time" : {
+        "start" : 1730646745705,
+        "stop" : 1730646746096,
+        "duration" : 391
+      }
+    } ]
+  },
+  "2f3bb6084b4a0d800f61c00fc59ce677" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5090964960d6dad0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1730646733654,
+        "stop" : 1730646735162,
+        "duration" : 1508
+      }
+    } ]
+  },
+  "ed122814f11433d02634dd5e4d322da2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ae2bcd3a9087014a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1730646737882,
+        "stop" : 1730646742835,
+        "duration" : 4953
+      }
+    } ]
+  },
+  "437b6af96e39f03d8567ffc28a70e585" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "eb47c997f1950c0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1730646723534,
+        "stop" : 1730646732208,
+        "duration" : 8674
+      }
+    } ]
+  }
+}

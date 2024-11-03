@@ -1,0 +1,221 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-JE2FE0SE",
+    "children" : [ {
+      "name" : "22180@LAPTOP-JE2FE0SE.main(1)",
+      "children" : [ {
+        "name" : "Create order without authorization and error hash ingredient/Создание заказа без авторизации и неверным хешем ингредиентов",
+        "uid" : "d509fb9020cf8ebb",
+        "parentUid" : "4377f5dc81d52f1486ea1244a623d495",
+        "status" : "broken",
+        "time" : {
+          "start" : 1730646732724,
+          "stop" : 1730646733621,
+          "duration" : 897
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get order by authorization user/Получить заказ авторизованного пользователя",
+        "uid" : "ae2bcd3a9087014a",
+        "parentUid" : "4377f5dc81d52f1486ea1244a623d495",
+        "status" : "passed",
+        "time" : {
+          "start" : 1730646737882,
+          "stop" : 1730646742835,
+          "duration" : 4953
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get order without authorization user/Получить заказ неавторизованного пользователя",
+        "uid" : "7191b0aab7dcffb",
+        "parentUid" : "4377f5dc81d52f1486ea1244a623d495",
+        "status" : "failed",
+        "time" : {
+          "start" : 1730646735172,
+          "stop" : 1730646737848,
+          "duration" : 2676
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User login by valid credentials/Логин под существующим пользователем",
+        "uid" : "2b34bda443d5d81c",
+        "parentUid" : "4377f5dc81d52f1486ea1244a623d495",
+        "status" : "passed",
+        "time" : {
+          "start" : 1730646754841,
+          "stop" : 1730646756559,
+          "duration" : 1718
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User create is empty name/Создание пользователя с незаполненным полем Имя",
+        "uid" : "9a52f726d0460115",
+        "parentUid" : "4377f5dc81d52f1486ea1244a623d495",
+        "status" : "broken",
+        "time" : {
+          "start" : 1730646742846,
+          "stop" : 1730646743334,
+          "duration" : 488
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User login is error password/Логин с неверным паролем",
+        "uid" : "a1b85ea25e0cbc57",
+        "parentUid" : "4377f5dc81d52f1486ea1244a623d495",
+        "status" : "failed",
+        "time" : {
+          "start" : 1730646756592,
+          "stop" : 1730646758557,
+          "duration" : 1965
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User login is error email/Логин с несуществующим email",
+        "uid" : "e3c7fe6cfade6a77",
+        "parentUid" : "4377f5dc81d52f1486ea1244a623d495",
+        "status" : "failed",
+        "time" : {
+          "start" : 1730646747357,
+          "stop" : 1730646749902,
+          "duration" : 2545
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Repeated request by create user/Повторное создание зарегистрированного пользователя",
+        "uid" : "8b5b1d9c95e2d5e9",
+        "parentUid" : "4377f5dc81d52f1486ea1244a623d495",
+        "status" : "broken",
+        "time" : {
+          "start" : 1730646746100,
+          "stop" : 1730646747352,
+          "duration" : 1252
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User create is empty password/Создание пользователя с незаполненным полем Пароль",
+        "uid" : "a458e55b25b816bf",
+        "parentUid" : "4377f5dc81d52f1486ea1244a623d495",
+        "status" : "broken",
+        "time" : {
+          "start" : 1730646745705,
+          "stop" : 1730646746096,
+          "duration" : 391
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User create is empty email/Создание пользователя с незаполненным полем email",
+        "uid" : "5bada92ed39085e6",
+        "parentUid" : "4377f5dc81d52f1486ea1244a623d495",
+        "status" : "broken",
+        "time" : {
+          "start" : 1730646745349,
+          "stop" : 1730646745701,
+          "duration" : 352
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User login is empty email/Логин с пустым полем email",
+        "uid" : "67e432d616c08e66",
+        "parentUid" : "4377f5dc81d52f1486ea1244a623d495",
+        "status" : "failed",
+        "time" : {
+          "start" : 1730646752828,
+          "stop" : 1730646754807,
+          "duration" : 1979
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User login is empty password/Логин с пустым полем пароль",
+        "uid" : "b9a141e128c45380",
+        "parentUid" : "4377f5dc81d52f1486ea1244a623d495",
+        "status" : "failed",
+        "time" : {
+          "start" : 1730646749908,
+          "stop" : 1730646752795,
+          "duration" : 2887
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create order without authorization and ingredients/ Создание заказа без ингредиентов неавторизованным пользователем",
+        "uid" : "d3b8ed863babae5b",
+        "parentUid" : "4377f5dc81d52f1486ea1244a623d495",
+        "status" : "failed",
+        "time" : {
+          "start" : 1730646732309,
+          "stop" : 1730646732719,
+          "duration" : 410
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create order without authorization/Создание заказа с ингредиентами неавторизованным пользователем",
+        "uid" : "5090964960d6dad0",
+        "parentUid" : "4377f5dc81d52f1486ea1244a623d495",
+        "status" : "passed",
+        "time" : {
+          "start" : 1730646733654,
+          "stop" : 1730646735162,
+          "duration" : 1508
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User create by valid credentials/Создание уникального пользователя",
+        "uid" : "5ff0562eee4ffb82",
+        "parentUid" : "4377f5dc81d52f1486ea1244a623d495",
+        "status" : "broken",
+        "time" : {
+          "start" : 1730646743341,
+          "stop" : 1730646745343,
+          "duration" : 2002
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create order by authorization/Создание заказа с ингредиентами авторизованным пользователем",
+        "uid" : "eb47c997f1950c0c",
+        "parentUid" : "4377f5dc81d52f1486ea1244a623d495",
+        "status" : "passed",
+        "time" : {
+          "start" : 1730646723534,
+          "stop" : 1730646732208,
+          "duration" : 8674
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4377f5dc81d52f1486ea1244a623d495"
+    } ],
+    "uid" : "4e02536e03a505ec78c747fd20d29c74"
+  } ]
+}

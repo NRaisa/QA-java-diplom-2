@@ -1,0 +1,120 @@
+{
+  "uid" : "5090964960d6dad0",
+  "name" : "Create order without authorization/Создание заказа с ингредиентами неавторизованным пользователем",
+  "fullName" : "OrderCreateTest.orderCreateWithoutAuthorization",
+  "historyId" : "2f3bb6084b4a0d800f61c00fc59ce677",
+  "time" : {
+    "start" : 1730646733654,
+    "stop" : 1730646735162,
+    "duration" : 1508
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Send GET request to /api/ingredients",
+      "time" : {
+        "start" : 1730646733660,
+        "stop" : 1730646734782,
+        "duration" : 1122
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Send POST request to /api/orders",
+      "time" : {
+        "start" : 1730646734823,
+        "stop" : 1730646735124,
+        "duration" : 301
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "order",
+        "value" : "Order(ingredients=[61c0c5a71d1f82001bdaaa6f, 61c0c5a71d1f82001bdaaa6d, 61c0c5a71d1f82001bdaaa6e])"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "4b373b9aca863e88",
+      "name" : "Email : ",
+      "source" : "4b373b9aca863e88.txt",
+      "type" : "text/plain",
+      "size" : 18
+    }, {
+      "uid" : "e6d756a916593f29",
+      "name" : "Password : ",
+      "source" : "e6d756a916593f29.txt",
+      "type" : "text/plain",
+      "size" : 8
+    }, {
+      "uid" : "b53d221496a28bd6",
+      "name" : "Name : ",
+      "source" : "b53d221496a28bd6.txt",
+      "type" : "text/plain",
+      "size" : 8
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "OrderCreateTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "orderCreateWithoutAuthorization"
+  }, {
+    "name" : "suite",
+    "value" : "OrderCreateTest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-JE2FE0SE"
+  }, {
+    "name" : "thread",
+    "value" : "22180@LAPTOP-JE2FE0SE.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Create order/Создать заказ"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5090964960d6dad0.json",
+  "parameterValues" : [ ]
+}

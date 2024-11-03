@@ -1,0 +1,161 @@
+[ {
+  "uid" : "5090964960d6dad0",
+  "name" : "Create order without authorization/Создание заказа с ингредиентами неавторизованным пользователем",
+  "time" : {
+    "start" : 1730646733654,
+    "stop" : 1730646735162,
+    "duration" : 1508
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b34bda443d5d81c",
+  "name" : "User login by valid credentials/Логин под существующим пользователем",
+  "time" : {
+    "start" : 1730646754841,
+    "stop" : 1730646756559,
+    "duration" : 1718
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a1b85ea25e0cbc57",
+  "name" : "User login is error password/Логин с неверным паролем",
+  "time" : {
+    "start" : 1730646756592,
+    "stop" : 1730646758557,
+    "duration" : 1965
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d509fb9020cf8ebb",
+  "name" : "Create order without authorization and error hash ingredient/Создание заказа без авторизации и неверным хешем ингредиентов",
+  "time" : {
+    "start" : 1730646732724,
+    "stop" : 1730646733621,
+    "duration" : 897
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5bada92ed39085e6",
+  "name" : "User create is empty email/Создание пользователя с незаполненным полем email",
+  "time" : {
+    "start" : 1730646745349,
+    "stop" : 1730646745701,
+    "duration" : 352
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e3c7fe6cfade6a77",
+  "name" : "User login is error email/Логин с несуществующим email",
+  "time" : {
+    "start" : 1730646747357,
+    "stop" : 1730646749902,
+    "duration" : 2545
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "7191b0aab7dcffb",
+  "name" : "Get order without authorization user/Получить заказ неавторизованного пользователя",
+  "time" : {
+    "start" : 1730646735172,
+    "stop" : 1730646737848,
+    "duration" : 2676
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b9a141e128c45380",
+  "name" : "User login is empty password/Логин с пустым полем пароль",
+  "time" : {
+    "start" : 1730646749908,
+    "stop" : 1730646752795,
+    "duration" : 2887
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d3b8ed863babae5b",
+  "name" : "Create order without authorization and ingredients/ Создание заказа без ингредиентов неавторизованным пользователем",
+  "time" : {
+    "start" : 1730646732309,
+    "stop" : 1730646732719,
+    "duration" : 410
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "67e432d616c08e66",
+  "name" : "User login is empty email/Логин с пустым полем email",
+  "time" : {
+    "start" : 1730646752828,
+    "stop" : 1730646754807,
+    "duration" : 1979
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "5ff0562eee4ffb82",
+  "name" : "User create by valid credentials/Создание уникального пользователя",
+  "time" : {
+    "start" : 1730646743341,
+    "stop" : 1730646745343,
+    "duration" : 2002
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a458e55b25b816bf",
+  "name" : "User create is empty password/Создание пользователя с незаполненным полем Пароль",
+  "time" : {
+    "start" : 1730646745705,
+    "stop" : 1730646746096,
+    "duration" : 391
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "eb47c997f1950c0c",
+  "name" : "Create order by authorization/Создание заказа с ингредиентами авторизованным пользователем",
+  "time" : {
+    "start" : 1730646723534,
+    "stop" : 1730646732208,
+    "duration" : 8674
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9a52f726d0460115",
+  "name" : "User create is empty name/Создание пользователя с незаполненным полем Имя",
+  "time" : {
+    "start" : 1730646742846,
+    "stop" : 1730646743334,
+    "duration" : 488
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ae2bcd3a9087014a",
+  "name" : "Get order by authorization user/Получить заказ авторизованного пользователя",
+  "time" : {
+    "start" : 1730646737882,
+    "stop" : 1730646742835,
+    "duration" : 4953
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8b5b1d9c95e2d5e9",
+  "name" : "Repeated request by create user/Повторное создание зарегистрированного пользователя",
+  "time" : {
+    "start" : 1730646746100,
+    "stop" : 1730646747352,
+    "duration" : 1252
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
