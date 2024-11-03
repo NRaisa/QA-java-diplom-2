@@ -1,0 +1,144 @@
+{
+  "uid" : "2b34bda443d5d81c",
+  "name" : "User login by valid credentials/Логин под существующим пользователем",
+  "fullName" : "UserLoginTest.userLoginByValidCredentials",
+  "historyId" : "2afc9a43bbdf7bceb279196a7479613a",
+  "time" : {
+    "start" : 1730646754841,
+    "stop" : 1730646756559,
+    "duration" : 1718
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Send POST request to /api/auth/register",
+      "time" : {
+        "start" : 1730646754845,
+        "stop" : 1730646755460,
+        "duration" : 615
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=mxbzledd@yandex.ru, password=kFxFLgCV, name=mxBZlEDD)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Send POST request to /api/auth/login",
+      "time" : {
+        "start" : 1730646755474,
+        "stop" : 1730646755923,
+        "duration" : 449
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=mxbzledd@yandex.ru, password=kFxFLgCV, name=mxBZlEDD)"
+      }, {
+        "name" : "accessToken",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Mjc5MmU1OWVkMjgwMDAxYjUwNzRhOSIsImlhdCI6MTczMDY0Njc1NywiZXhwIjoxNzMwNjQ3OTU3fQ.xF3SgHR-2zRhuMxE2EyaKWb3yomMLSkMIw2855Gox34"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Send DELETE request to /api/auth/user",
+      "time" : {
+        "start" : 1730646755939,
+        "stop" : 1730646756559,
+        "duration" : 620
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "accessToken",
+        "value" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Mjc5MmU1OWVkMjgwMDAxYjUwNzRhOSIsImlhdCI6MTczMDY0Njc1NywiZXhwIjoxNzMwNjQ3OTU3fQ.xF3SgHR-2zRhuMxE2EyaKWb3yomMLSkMIw2855Gox34"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "cc000dd261a7524d",
+      "name" : "Email : ",
+      "source" : "cc000dd261a7524d.txt",
+      "type" : "text/plain",
+      "size" : 18
+    }, {
+      "uid" : "d9fb334b00bd3c3b",
+      "name" : "Password : ",
+      "source" : "d9fb334b00bd3c3b.txt",
+      "type" : "text/plain",
+      "size" : 8
+    }, {
+      "uid" : "5dc6d6598659faf7",
+      "name" : "Name : ",
+      "source" : "5dc6d6598659faf7.txt",
+      "type" : "text/plain",
+      "size" : 8
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "UserLoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "userLoginByValidCredentials"
+  }, {
+    "name" : "suite",
+    "value" : "UserLoginTest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-JE2FE0SE"
+  }, {
+    "name" : "thread",
+    "value" : "22180@LAPTOP-JE2FE0SE.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Login user/Логин пользователя"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2b34bda443d5d81c.json",
+  "parameterValues" : [ ]
+}
